@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "resolutions": {
-    "styled-components": "^5",
-    "proxy": "http://localhost:5279"
+    "styled-components": "^5"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
