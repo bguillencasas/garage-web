@@ -1,4 +1,5 @@
 ﻿import styled from "styled-components";
+// eslint-disable-next-line
 import React, { useState, useEffect } from "react";
 
 const ItemFrame = styled.div`
@@ -66,7 +67,7 @@ const Main = () => {
     }, [])
 
     function fetchData() {
-        fetch("http://localhost:5000/items")
+        fetch("http://localhost:5279/items")
             .then(response => response.json())
             .then(data => setItems(data))
     }
